@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { FloatingShapes } from './FloatingShapes';
 import { motion } from 'framer-motion';
 import { Environment } from '@react-three/drei';
-import logoImg from '../assets/WCCDLOGO C-01.png';
+import logoImg from '../assets/logo-compressed.webp';
 
 export default function Hero() {
     return (

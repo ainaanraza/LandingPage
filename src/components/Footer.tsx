@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail } from 'lucide-react';
-import logoImg from '../assets/WCCDLOGO C-01.png';
+import logoImg from '../assets/logo-compressed.webp';
 
 export default function Footer() {
     return (
