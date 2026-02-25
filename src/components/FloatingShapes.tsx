@@ -6,7 +6,6 @@ import * as THREE from 'three';
 // A dynamic abstract shapes scene replacing generic boxes
 export function FloatingShapes() {
     const groupRef = useRef<THREE.Group>(null);
-    const meshRef = useRef<THREE.Mesh>(null);
 
     useFrame((state) => {
         if (groupRef.current) {
