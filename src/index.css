@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #D91278; /* Pink from logo */
+  --secondary: #F6B221; /* Yellow from logo */
+  --tertiary: #155196; /* Blue from logo */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050510; /* Dark premium background */
+  color: #ffffff;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+canvas {
+  touch-action: none;
+}
